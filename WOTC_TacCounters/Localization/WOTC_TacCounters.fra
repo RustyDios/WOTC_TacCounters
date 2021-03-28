@@ -1,0 +1,67 @@
+;a &#224;
+;e &#233;
+;i &#238;
+;u &#249;
+
+[RustyCounter_UI]
+strKilled = "Tu&#233;s:"
+strActive = "Actif:"
+strTotal = "Total:"
+strRemaining = "Restant:"
+
+;=================================================================
+
+[UISL_Shell_RustyTacCounter]
+strMessage_Title = "[WOTC] Tactical Kill Counter Redux"
+strMessage_Header = "AVERTISSEMENT: le fichier de configuration a &#233;t&#233; r&#233;initialis&#233;!"
+strMessage_Body = "Le fichier de configuration pour <font color = '#53B45E'> [WOTC] Tactical Kill Counter Redux </font> a &#233;t&#233; cr&#233;&#233; ou mis &#224; jour. <br/> <br/> S'il s'agit de la première configuration, vous devra red&#233;marrer XCOM2, sinon il plantera! <br/> <br/> Vous devrez d&#233;finir toutes les valeurs pr&#233;c&#233;dentes que vous aviez dans MCM pour que les valeurs prennent effet. "
+strDismiss_Button = "OK"
+
+;=================================================================
+[RustyCounter_Settings]
+Group1_Label = "Paramètres g&#233;n&#233;raux"
+
+alwaysShowActiveEnemyCount_Label = "Toujours afficher le nombre d'ennemis actifs"
+alwaysShowActiveEnemyCount_Tooltip = "Si d&#233;fini sur false, le nombre total d'ennemis actifs n'est jamais affich&#233;."
+
+showSplitTeamsActive_Label = "Afficher les &#233;quipes fractionn&#233;es actives"
+showSplitTeamsActive_Tooltip = "Certaines personnes l'aiment de cette façon, d'autres l'autre. R&#233;glez-le sur false et vous obtiendrez un nombre total, d&#233;finissez-le sur true et vous obtiendrez une r&#233;partition par nombre d'&#233;quipe. Aucun mode couleur ne force le total combin&#233;."
+
+showSplitTeamsKilled_Label = "Afficher les &#233;quipes s&#233;par&#233;es tu&#233;es"
+showSplitTeamsKilled_Tooltip = "Certaines personnes l'aiment de cette façon, d'autres l'autre. R&#233;glez-le sur false et vous obtiendrez un nombre total, d&#233;finissez-le sur true et vous obtiendrez une r&#233;partition par nombre d'&#233;quipe. Aucun mode couleur ne force le total combin&#233;."
+
+neverShowEnemyTotal_Label = "Ne jamais afficher le total de l'ennemi"
+neverShowEnemyTotal_Tooltip = "D&#233;finir ceci sur true ne vous montrera JAMAIS le nombre total ou restant d'ennemis dans une mission, même si vous n'avez pas accès aux informations."
+
+alwaysShowEnemyTotal_Label = "Toujours afficher le total de l'ennemi"
+alwaysShowEnemyTotal_Tooltip = "L'inverse exact de ce qui pr&#233;cède - r&#233;glez-le sur true et vous obtiendrez le nombre total d'ennemis ou le restant TOUJOURS même si vous n'avez pas encore construit la chambre des ombres. Veuillez noter que cela remplace le paramètre' jamais 'd'en haut - ceci l'un a la priorit&#233;, 'TOUJOURS'. "
+
+locationScoutShowsTotal_Label = "Afficher le total si Location Scout est actif"
+locationScoutShowsTotal_Tooltip = "R&#233;glez-le sur true et vous obtiendrez le total ou le reste même si vous n'avez pas encore construit la Chambre des ombres, tant que le sitrep Location Scout est actif."
+
+showRemainingInsteadOfTotal_Label = "Afficher le reste au lieu du total"
+showRemainingInsteadOfTotal_Tooltip = "Certaines personnes l'aiment de cette façon, d'autres l'autre. R&#233;glez-le sur false et vous obtiendrez le nombre total d'ennemis, r&#233;glez-le sur true et vous obtiendrez le nombre restant."
+
+includeTurrets_Label = "Inclure les tourelles"
+includeTurrets_Tooltip = "Comme les tourelles ne comptent pas dans le 'total tu&#233;' &#224; la fin de la mission, nous ne les incluons pas ici aussi par d&#233;faut. Si vous le souhaitez, vous pouvez activer leur comptage."
+
+;=================================================================
+Group2_Label = "Paramètres de l'interface utilisateur"
+
+noColor_Label = "Aucune couleur"
+noColor_Tooltip = "D&#233;sactiver la coloration de tous les nombres. Force le total combin&#233; des comptages fractionn&#233;s."
+
+textAlignment_Label = "Alignement du texte"
+textAlignment_Tooltip = "Comment le texte est align&#233; avec la 'bo&#238;te'."
+
+autoAdjust_Label = "R&#233;glage automatique de la minuterie"
+autoAdjust_Tooltip = "Ajustez le d&#233;calage Y si une minuterie et / ou un compte &#224; rebours d'&#233;vacuation est affich&#233;."
+
+BoxAnchor_Label = "Ancre de bo&#238;te"
+BoxAnchor_Tooltip = "O&#249; la 'bo&#238;te' (qui contient le texte) est ancr&#233;e sur l'&#233;cran (tout l'&#233;cran). \nValeurs possibles (directement depuis UIUtilities): \n0 (ANCHOR_NONE) \n1 (ANCHOR_TOP_LEFT) \n2 (ANCHOR_TOP_CENTER) \n3 (ANCHOR_TOP_RIGHT) \n4 (ANCHOR_MIDDLE_LEFT) \n5 (ANCHOR_MIDDLE_CENTER) \n6 (ANCHOR_MIDDLE_RIGHT) \n7 (ANCHOR_BOTTOM_LEFT) \n8 (ANCHOR_BOTTOM_CENTEROM) \n8 (ANCHOR_BOTTOM_CENTEROM) \n8 (ANCHOR_BOTTOM_CENTEROM)
+
+OffsetX_Label = "OffsetX"
+OffsetX_Tooltip = "De combien la 'bo&#238;te' doit être d&#233;cal&#233;e de son ancrage sur l'axe X, horizontal."
+
+OffsetY_Label = "OffsetY"
+OffsetY_Tooltip = "De combien la 'bo&#238;te' doit être d&#233;cal&#233;e de son ancrage sur l'axe Y, vertical."

@@ -1,0 +1,13 @@
+[RustyCounter_UI]
+strKilled="Ubito:"
+strActive="Aktivnyy:"
+strTotal="Obshchiy:"
+strRemaining="Ostavat'sya:"
+
+;=================================================================
+
+[UISL_Shell_RustyTacCounter]
+strMessage_Title = "[WOTC] Tactical Kill Counter Redux"
+strMessage_Header = "VNIMANIYe: byl sbroshen fayl konfiguratsii!"
+strMessage_Body	= "Konfiguratsionnyy fayl dlya <font color = '#53B45E'> [WOTC] Tactical Kill Counter Redux </font> byl sozdan ili obnovlen. <br/> <br/> Yesli eto pervaya ustanovka, vam neobkhodimo perezapustit' XCOM2, inache proizoydet sboy! <br/> <br/> Vam nuzhno budet ustanovit' vse predydushchiye znacheniya, kotoryye byli u vas v MCM, i vam nuzhno budet perezapustit' XCOM2, chtoby znacheniya vstupili v silu."
+strDismiss_Button = "Ladno"

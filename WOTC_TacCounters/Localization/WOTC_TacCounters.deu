@@ -1,0 +1,67 @@
+;a &#228;
+;o &#246;
+;u &#252;
+;B &#223;
+
+[RustyCounter_UI]
+strKilled = "Get&#246;tet:"
+strActive = "Aktiv:"
+strTotal = "Gesamt:"
+strRemaining = "Verbleibend:"
+
+;=================================================================
+
+[UISL_Shell_RustyTacCounter]
+strMessage_Title = "[WOTC] Tactical Kill Counter Redux"
+strMessage_Header = "WARNUNG: Konfigurationsdatei wurde zur&#252;ckgesetzt!"
+strMessage_Body = "Die Konfigurationsdatei f&#252;r <font color = '#53B45E'> [WOTC] Tactical Kill Counter Redux </font> wurde neu erstellt oder aktualisiert. <br/> <br/> Wenn Sie dies zum ersten Mal einrichten XCOM2 muss neu gestartet werden, sonst st&#252;rzt es ab! <br/> <br/> Sie m&#252;ssen alle vorherigen Werte in MCM festlegen, damit die Werte wirksam werden. "
+strDismiss_Button = "OK"
+
+;=================================================================
+[RustyCounter_Settings]
+Group1_Label = "Allgemeine Einstellungen"
+
+alwaysShowActiveEnemyCount_Label = "Immer die Anzahl aktiver Feinde anzeigen"
+alwaysShowActiveEnemyCount_Tooltip = "Wenn false festgelegt ist, wird die Gesamtzahl der aktiven Feinde nie angezeigt."
+
+showSplitTeamsActive_Label = "Split Teams Active anzeigen"
+showSplitTeamsActive_Tooltip = "Einige Leute m&#246;gen es auf diese Weise, andere. Wenn Sie es auf false setzen, erhalten Sie eine Gesamtzahl, setzen Sie es auf true und Sie erhalten eine Aufteilung pro Teamanzahl. Kein Farbmodus erzwingt eine kombinierte Summe."
+
+showSplitTeamsKilled_Label = "Geteilte get&#246;tete Teams anzeigen"
+showSplitTeamsKilled_Tooltip = "Einige Leute m&#246;gen es auf diese Weise, andere. Wenn Sie es auf false setzen, erhalten Sie eine Gesamtzahl, setzen Sie es auf true und Sie erhalten eine Aufteilung pro Teamanzahl. Kein Farbmodus erzwingt eine kombinierte Gesamtzahl."
+
+neverShowEnemyTotal_Label = "Never Enemy Total anzeigen"
+neverShowEnemyTotal_Tooltip = "Wenn Sie dies auf true setzen, wird NIEMALS die Gesamtzahl oder verbleibende Anzahl von Feinden in einer Mission angezeigt, selbst wenn Sie keinen Zugriff auf die Informationen haben."
+
+alwaysShowEnemyTotal_Label = "Immer die Gesamtsumme des Feindes anzeigen"
+alwaysShowEnemyTotal_Tooltip = "Die genaue Umkehrung des oben Gesagten - setzen Sie es auf true und Sie erhalten die Feinde insgesamt oder bleiben IMMER, obwohl Sie die Schattenkammer noch nicht gebaut haben. Bitte beachten Sie, dass dies die Einstellung' nie 'von oben &#252;berschreibt - dies man hat Vorrang, 'IMMER'. "
+
+locationScoutShowsTotal_Label = "Gesamtsumme anzeigen, wenn Location Scout aktiv ist"
+locationScoutShowsTotal_Tooltip = "Setzen Sie es auf true und Sie erhalten die Summe oder den Restbetrag, auch wenn Sie die Schattenkammer noch nicht erstellt haben, solange der Location Scout-Sitrep aktiv ist."
+
+showRemainingInsteadOfTotal_Label = "Show Rest statt Gesamt anzeigen"
+showRemainingInsteadOfTotal_Tooltip = "Manche Leute m&#246;gen es so, andere anders. Setzen Sie es auf false und Sie erhalten die Gesamtzahl der Feinde, setzen es auf true und Sie erhalten die verbleibende Anzahl."
+
+includeTurrets_Label = "Gesch&#252;tzt&#252;rme einschlie&#223;en"
+includeTurrets_Tooltip = "Da T&#252;rme am Ende der Mission nicht zur Gesamtzahl der Get&#246;teten z&#228;hlen, werden sie standardm&#228;&#223;ig auch hier nicht ber&#252;cksichtigt. Wenn Sie m&#246;chten, k&#246;nnen Sie das Z&#228;hlen aktivieren."
+
+;=================================================================
+Group2_Label = "UI-Einstellungen"
+
+noColor_Label = "Keine Farbe"
+noColor_Tooltip = "Deaktiviert die F&#228;rbung aller Zahlen. Erzwingt die kombinierte Summe der geteilten Z&#228;hlungen."
+
+textAlignment_Label = "Textausrichtung"
+textAlignment_Tooltip = "Wie der Text in der 'Box' ausgerichtet wird."
+
+autoAdjust_Label = "Automatische Anpassung f&#252;r Timer"
+autoAdjust_Tooltip = "Passen Sie den Y-Offest an, wenn ein Timer und / oder ein Evakuierungs-Countdown angezeigt wird."
+
+BoxAnchor_Label = "Box Anchor"
+BoxAnchor_Tooltip = "Wo die 'Box' (die den Text enth&#228;lt) auf dem Bildschirm (dem gesamten Bildschirm) verankert ist. \nM&#246;gliche Werte (direkt von UIUtilities): \n0 (ANCHOR_NONE) \n1 (ANCHOR_TOP_LEFT) \n2 (ANCHOR_TOP_CENTER) \n3 (ANCHOR_TOP_RIGHT) \n4 (ANCHOR_MIDDLE_LEFT) \n5 (ANCHOR_MIDDLE_CENTER) \n6 (ANCHOR_MIDDLE_RIGHT) \n7 (ANCHOR_BOTTOM_LEFT) \n8 (ANCHOR_BOTTOM_CENTER)
+
+OffsetX_Label = "OffsetX"
+OffsetX_Tooltip = "Um wie viel sollte die 'Box' von ihrem Anker auf der X-Achse horizontal versetzt sein."
+
+OffsetY_Label = "OffsetY"
+OffsetY_Tooltip = "Um wie viel sollte die 'Box' vertikal von ihrem Anker auf der Y-Achse versetzt sein."
